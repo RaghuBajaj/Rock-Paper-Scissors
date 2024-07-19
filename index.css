@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 58);
+    
+}
+h1{
+    color: aliceblue;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+.icon{
+    margin: 2%;
+    padding: 1%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+#rock{
+    cursor: pointer;
+    background-color: rgb(220, 24, 24);
+}
+#paper{
+    cursor: pointer;
+    background-color: rgb(114, 195, 254);
+}
+#scissor{
+    cursor: pointer;
+    background-color: rgb(171, 77, 212);
+}
+.img{
+    height: 150px;
+    width: 150px;
+    image-rendering: unset;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    gap: 5%;
+}
+.score{
+    text-align: center;
+    font-size: 35px;
+}
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 2.5%;
+    padding: 0.5%;
+}
+.msg{
+    padding: 1%;
+    color: aliceblue;
+    background-color: rgb(82, 71, 175);
+    font-size: 20px;
+    border-radius: 10%;
+    border: 1px solid black;
+}
